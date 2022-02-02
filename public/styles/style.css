@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fixed-nc {
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-active {
+  color: #ffa31a;
+}
+
+.main-col {
+  color: #ffa31a;
+}
+
+body
+  > main
+  > article
+  > div.vh-100.dt.w-100.tc.bg-dark-gray.white.cover
+  > div
+  > h1 {
+  color: #ffa31a;
+}
+
+.article-link {
+  color: #ffa31a;
+  text-decoration: none;
+}
+
+.article-link:hover {
+  color: #4c4c4c;
+}
